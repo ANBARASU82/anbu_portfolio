@@ -214,7 +214,13 @@ body {
         flex-direction: column-reverse;
         padding: 100px 5%;
     }
-
+   .navbar a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .header {
+        padding: 15px 5%;
+    }
     .contact-content, .contact-img {
         flex: unset;
         width: 100%;
