@@ -7,10 +7,18 @@
     <title>Portfolio</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="project.css">
+    <script>
+            function toggleMenu() {
+                document.querySelector('.navbar').classList.toggle('active');
+            }
+        </script>
 </head>
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
+        <div class="menu-toggle" onclick="toggleMenu()">
+                <i class='bx bx-menu'></i>
+            </div>
         <nav class="navbar">
             <a href="index.html" style="--i:1;" class="active">Home</a>
             <a href="about.html" style="--i:2;">About</a>
