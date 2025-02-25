@@ -174,3 +174,31 @@ body {
         opacity: 1;
     }
 }
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+        background: rgb(151, 15, 15);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar.active {
+        display: flex;
+    }
+    .navbar a {
+        margin: 10px 0;
+        padding: 10px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+}
