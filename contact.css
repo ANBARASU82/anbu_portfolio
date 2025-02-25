@@ -215,6 +215,14 @@ body {
     animation: slidetop 1s ease forwards;
     animation-delay: .7s;
 }
+  #particles-js {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Places particles behind all other content */
+        }
 @media (max-width: 768px) {
     .contact {
         flex-direction: column-reverse;
