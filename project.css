@@ -45,7 +45,7 @@ body {
     margin-left: 35px;
     transition: 0.3s;
     opacity: 0;
-    animation: slidetop 0.5s ease forwards;
+    animation: slidetop 0.3s ease forwards;
     animation-delay: calc(0.2s * var(--i));
 }
 
